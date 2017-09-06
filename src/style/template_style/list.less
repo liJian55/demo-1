@@ -1,0 +1,67 @@
+.home_content{
+  .pt(64);
+  .pb(49);
+}
+.home_list{
+  .padding(0,10);
+  .pb(10);
+
+  border-bottom: 1px solid #ccc;
+  .tag{
+    .w(80);
+    .h(25);
+    .lh(25);
+    border-radius: 0 0 5px 5px;
+    background-color: #666;
+    text-align: center;
+    color: #fff;
+  }
+  /*标题*/
+  h3{
+    .mt(10);
+    font-weight: normal;
+    .fs(20);
+    .mb(10);
+  }
+
+  /*第一种样式*/
+  .post1{
+    p{
+      .lh(25);
+      .fs(16);
+      color: #666;
+    }
+  }
+
+  /*第二种样式*/
+  .post2{
+    p{
+      float: left;
+      .w(260);
+      .lh(25);
+      .h(75);
+      overflow: hidden;
+    }
+    img{
+      float: right;
+      .w(80);
+    }
+  }
+
+  /*第三种样式*/
+  .post3{
+    ul{
+      width: 100%;
+      display: flex;
+      li{
+        flex: 1;
+        width: 33.33%;
+        text-align: center;
+        img{
+          vertical-align: top;
+          .w(110);
+        }
+      }
+    }
+  }
+}
